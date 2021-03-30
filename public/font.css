@@ -1,0 +1,21 @@
+@font-face{
+    font-family: 'FontRestaurant';
+    src: url('../src/Assets/Fonts/fa-brands-400.eot');
+    src: url('../src/Assets/Fonts/fa-brands-400.eot?#iefix') format('embedded-opentype'),
+        url('../src/Assets/Fonts/fa-brands-400.woff2') format('woff2'),
+        url('../src/Assets/Fonts/fa-brands-400.woff') format('woff'),
+        url('../src/Assets/Fonts/fa-brands-400.ttf') format('truetype'),
+        url('../src/Assets/Fonts/fa-brands-400.svg#svgFontName') format('svg');
+    /* src: url('../src/Assets/Fonts/fa-regular-400.eot');
+    src: url('../src/Assets/Fonts/fa-regular-400.eot?#iefix') format('embedded-opentype'),
+        url('../src/Assets/Fonts/fa-regular-400.woff2') format('woff2'),
+        url('../src/Assets/Fonts/fa-regular-400.woff') format('woff'),
+        url('../src/Assets/Fonts/fa-regular-400.ttf') format('truetype'),
+        url('../src/Assets/Fonts/fa-regular-400.svg#svgFontName') format('svg');
+    src: url('../src/Assets/Fonts/fa-solid-900.eot');
+    src: url('../src/Assets/Fonts/fa-solid-900.eot?#iefix') format('embedded-opentype'),
+        url('../src/Assets/Fonts/fa-solid-900.woff2') format('woff2'),
+        url('../src/Assets/Fonts/fa-solid-900.woff') format('woff'),
+        url('../src/Assets/Fonts/fa-solid-900.ttf') format('truetype'),
+        url('../src/Assets/Fonts/fa-solid-900.svg#svgFontName') format('svg'); */
+  }

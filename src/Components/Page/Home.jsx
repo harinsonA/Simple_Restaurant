@@ -4,7 +4,7 @@ import FoodGrid from "../Organisms/FoodGrid";
 
 
 const Home = () => (
-    <div className='container'>
+    <div className='container b-container'>
         <Resumen />
         <FoodGrid />
         <FooterCard />

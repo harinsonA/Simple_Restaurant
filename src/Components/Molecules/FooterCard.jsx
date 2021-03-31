@@ -1,7 +1,7 @@
 
 
 const FooterCard = () => (
-        <div className="card mb-3 col-md-12 p-0 border-0">
+        <div className="card mb-3 col-md-12 p-0 pt-5 border-0">
             <div className="row no-gutters">
                 <div className="col-md-6">
                     <img src="https://madklubben.dk/wp-content/uploads/2020/07/restaurant_hero_FCKbh.jpg" alt="Comida" width='100%' height='100%' />

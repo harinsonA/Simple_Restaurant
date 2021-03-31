@@ -1,7 +1,7 @@
 body {
   background-color: #ccc;
   margin: 0;
-  font-family: FontRestaurant, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -9,4 +9,85 @@ body {
   background-color: #fff;
   width: 100%;
   max-width: 1200px;
+}
+.b-container{
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.header-nav{
+  width: 100%;
+  min-height: 500px;
+  background-image: url('Assets/img/Otros/simple-house-01.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: unsetc;
+  background-attachment: fixed;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  
+}
+
+.navbar{
+  padding: 30px 50px;
+}
+.header-nav .navbar .container{
+  background-color: transparent;
+  padding-left: 2.5%;
+  padding-right: 3%;
+}
+#navbarSupportedContent .navbar-nav{
+  background-color: transparent !important;
+  width: 100%;
+  justify-content: flex-end;
+}
+.navbar-brand{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.navbar-brand .logo-header{
+  margin: 0px 5px 0px 0px;
+}
+.navbar-brand .logo-title{
+  color: #fff;
+}
+
+.navbar-brand .logo-title h1{
+  font-size: 2rem;
+  font-weight: 400;
+}
+.navbar-brand .logo-title p{
+  margin: 0;
+}
+
+.navbar .nav-link{
+  color: #fff;
+  font-size: 17px;
+}
+.navbar .nav-link:hover{
+  border-bottom: 1px solid #fff;
+}
+.navbar .nav-item{
+  padding-left: 5%;
+}
+
+.btn{
+  border-radius: 0;
+  padding: 10px 30px;
+  background-color: #fff;
+  border-color: #2F956D;
+  color: #2F956D;
+}
+.btn:hover{
+  background-color: #2F956D;
+  color: #fff;
+}
+.select-{
+  background-color: #2F956D;
+  color: #fff;
 }

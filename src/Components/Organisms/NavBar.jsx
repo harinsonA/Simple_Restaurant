@@ -1,28 +1,38 @@
-
+import logo from '../../Assets/img/Otros/simple-house-logo.png'
 
 const NavBar = () => (
 
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container">
-            <a className="navbar-brand" href="#">Navbar</a>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
+    <div className="header-nav">
+        <nav className="navbar navbar-expand-lg ">
+            <div className="container">
+                <div className="navbar-brand">
+                    <div className="logo-header">
+                        <img src={logo} alt="simple-restaurant-logo" />
+                    </div>
+                    <div className="logo-title">
+                        <h1>Simple Restaurant</h1>
+                        <p>new restaurant template</p>
+                    </div>
+                </div>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
 
-            <div className="collapse my-2 navbar-collapse flex-column d-flex align-items-end" id="navbarSupportedContent">
-                <ul className="navbar-nav mr-auto justify-content-end">
-                    <li className="nav-item active">
-                        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">About</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+                <div className="collapse my-2 navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav mr-auto">
+                        <li className="nav-item active">
+                            <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">About</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
 )
 export default NavBar

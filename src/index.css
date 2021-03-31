@@ -2,6 +2,7 @@ body {
   background-color: #ccc;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -68,6 +69,7 @@ body {
 .navbar .nav-link{
   color: #fff;
   font-size: 17px;
+  border-bottom: 1px solid transparent;
 }
 .navbar .nav-link:hover{
   border-bottom: 1px solid #fff;
@@ -76,18 +78,65 @@ body {
   padding-left: 5%;
 }
 
-.btn{
+.btn-group{
   border-radius: 0;
   padding: 10px 30px;
   background-color: #fff;
   border-color: #2F956D;
   color: #2F956D;
 }
-.btn:hover{
+.btn-group:hover{
   background-color: #2F956D;
   color: #fff;
 }
-.select-{
+.select-buttom{
   background-color: #2F956D;
   color: #fff;
+}
+.bg-readmore{
+  background-color: #fff;
+  border-color: #ccc;
+  color: #626364;
+  border-radius: 0px;
+  font-size:16px ;
+  padding: 10px 30px;
+}
+.bg-readmore:hover{
+  cursor: pointer;
+  background-color: #626364;
+  color: #fff;
+}
+.body-readme{
+  height: 100%;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between;
+}
+.body-readme .b-button-readme {
+  align-self: flex-end;
+}
+.copyright{
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin: 0;
+  color: #626364;
+  font-size: 17px;
+  line-height: 1.8;
+}
+.color-grey{
+  color: #626364;
+}
+.color-azul{
+  color: #1A6692;
+}
+.card-food h5{
+  font-weight: 400;
+  color: #1A6692;
+}
+.card-food p{
+  color: #626364;
+}
+.card-food .precio{
+  color: #2F956D;
 }

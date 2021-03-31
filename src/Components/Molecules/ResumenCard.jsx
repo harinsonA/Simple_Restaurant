@@ -7,7 +7,7 @@ const Resumen = () => (
             <div className="text-center title">
                 <h1>Welcome to Simple House</h1>
             </div>
-            <div className="text-center">
+            <div className="text-center color-grey">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, iure. Numquam quia nam harum maxime animi natus blanditiis quidem culpa quos suscipit modi sapiente rem veritatis, minima voluptates praesentium, facere fugit. Iste, soluta!</p>
             </div>
         </div>

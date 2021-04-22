@@ -47,7 +47,7 @@ const FoodGrid = () => {
             </div>
             <div className='row pb-5'>
                 {
-                    list.map( ({ title, description, price, id }) => <FoodCard key={id} title={title} description={description} price={price} image={primera} />)
+                    list.map( ({ title, description, price, id, image }) => <FoodCard key={id} title={title} description={description} price={price} image={image} />)
                 }
                 
             </div>

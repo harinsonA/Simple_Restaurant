@@ -1,5 +1,4 @@
 
-import segunda from '../../Assets/img/food-gallery/2.jpg'
 
 const FoodCard = ({ title, description, price, image }) => (
     <>

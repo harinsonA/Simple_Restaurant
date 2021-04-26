@@ -23,10 +23,11 @@ const FoodGrid = () => {
 
 
     useEffect(() => {
-        axios.get('https://my-json-server.typicode.com/harinsonA/json_db/food')
+        axios.get('https://60860512d14a87001757894c.mockapi.io/restaurant')
             .then(response => {
-                setMenu(response.data)
-                setList(response.data.Pizza)
+                console.log(response.data[0].food.Pizza)
+                setMenu(response.data[0].food)
+                setList(response.data[0].food.Pizza)
             })
 
     }, [])

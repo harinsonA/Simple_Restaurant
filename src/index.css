@@ -140,3 +140,8 @@ body {
 .card-food .precio{
   color: #2F956D;
 }
+.card-img-top{
+  width: 100%;
+  max-width: 250px;
+  height: 250px;
+}

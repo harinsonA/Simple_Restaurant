@@ -15,7 +15,7 @@ const FooterCard = ({ img_footer }) => (
                             <p className="card-text color-grey">Redistributing this template as a downloadable ZIP file on any template collection site is strictly prohibited. You will need to talk to us for additional permissions about our templates. Thank you.</p>
                         </div>
                         <div className="b-button-readme pb-4">
-                            <button type="button" class="btn bg-readmore btn-lg">Read More</button>
+                            <button type="button" className="btn bg-readmore btn-lg">Read More</button>
                         </div>
                     </div>
                 </div>

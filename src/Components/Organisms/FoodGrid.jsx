@@ -2,19 +2,6 @@ import FoodCard from "../Molecules/FoodCard";
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
-// Import Imagenes de Galeria
-import primera from '../../Assets/img/food-gallery/1.jpg'
-// import segunda from '../../Assets/img/food-gallery/2.jpg'
-// import tercera from '../../Assets/img/food-gallery/3.jpg'
-// import cuarta from '../../Assets/img/food-gallery/4.jpg'
-// import quinta from '../../Assets/img/food-gallery/5.jpg'
-// import sexta from '../../Assets/img/food-gallery/6.jpg'
-// import sectima from '../../Assets/img/food-gallery/7.jpg'
-// import octava from '../../Assets/img/food-gallery/8.jpg'
-
-
-
-
 
 const FoodGrid = () => {
 

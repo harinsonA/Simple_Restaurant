@@ -1,7 +1,7 @@
 import CopyRight from "../Atoms/CopyRight";
 
 
-const FooterCard = ({ img_footer }) => (
+const FooterCard = ({ img_footer, title, description_one, description_two, textbuttom }) => (
     <>
         <div className="card col-md-12 p-0 pt-5 pb-4 border-0">
             <div className="row no-gutters">
@@ -11,12 +11,20 @@ const FooterCard = ({ img_footer }) => (
                 <div className="col-md-6">
                     <div className="card-body body-readme  pt-0 pb-0">
                         <div>
-                            <h5 className="card-title color-azul">Maecenas nulla neque</h5>
-                            <p className="card-text color-grey">Redistributing this template as a downloadable ZIP file on any template collection site is strictly prohibited. You will need to talk to us for additional permissions about our templates. Thank you.</p>
+                            <h5 className="card-title color-azul">{ title }</h5>
+                            <p className="card-text color-grey">{ description_one }</p>
+                            {
+                                description_two? <p className="card-text color-grey mt-5">{ description_two }</p> : <></>
+                            }
                         </div>
-                        <div className="b-button-readme pb-4">
-                            <button type="button" className="btn bg-readmore btn-lg">Read More</button>
-                        </div>
+                        {
+                            textbuttom ?
+                                <div className="b-button-readme pb-4">
+                                    <button type="button" className="btn bg-readmore btn-lg">{ textbuttom }</button>
+                                </div>
+                            :
+                            <></>
+                        }
                     </div>
                 </div>
             </div>

@@ -1,3 +1,4 @@
+import { Link, NavLink } from 'react-router-dom'
 import logo from '../../Assets/img/Otros/simple-house-logo.png'
 
 const NavBar = () => (
@@ -21,13 +22,13 @@ const NavBar = () => (
                 <div className="collapse my-2 navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item active">
-                            <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+                            <NavLink className="nav-link" to="/">Home <span className="sr-only">(current)</span></NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">About</a>
+                            <NavLink className="nav-link" to="/about">About</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contact</a>
+                            <NavLink className="nav-link" to="#">Contact</NavLink>
                         </li>
                     </ul>
                 </div>

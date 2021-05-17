@@ -2,6 +2,7 @@ import Resumen from "../Molecules/ResumenCard";
 import FooterCard from "../Molecules/FooterCard"
 
 import img_footer from "../../Assets/img/About/footer.jpg"
+import StaffGrid from "../Organisms/StaffGrid";
 
 const About = () => (
     <div className='container b-container'>
@@ -9,6 +10,7 @@ const About = () => (
             title = 'About Simple House'
             description = 'This is about page of simple house template. You can modify and use this HTML template for your website. Total 3 HTML pages included in this template. Header image has a parallax effect.'
         />
+        <StaffGrid />
         <FooterCard 
             img_footer={img_footer} 
             title='History of our restaurant'

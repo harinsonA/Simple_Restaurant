@@ -1,4 +1,4 @@
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import logo from '../../Assets/img/Otros/simple-house-logo.png'
 
 const NavBar = () => (

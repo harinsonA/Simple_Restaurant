@@ -162,3 +162,9 @@ body {
 .card{
   border: none;
 }
+.ventana-about{
+  height: 220px;
+  background-image: url('Assets/img/About/about-05.jpg');
+  background-position: center;
+  background-attachment: fixed;
+}

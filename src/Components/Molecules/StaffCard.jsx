@@ -6,7 +6,7 @@ const StaffCard = ({ id, name, job, description, image, networks }) => (
             </div>
             <div className="col-md-8">
                 <div className="card-body">
-                    <h5 className="card-title">{name}</h5>
+                    <h4 className="card-title">{name}</h4>
                     <h6 className="">{job}</h6>
                     <p className="card-text">{description}</p>
                     <div className="networks-social">

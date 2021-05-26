@@ -1,5 +1,5 @@
 const VentanaAbout = () => (
-    <div className="ventana-about">
+    <div className="ventana-about mt-5">
 
     </div>
 )

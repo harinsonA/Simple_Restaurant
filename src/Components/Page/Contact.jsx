@@ -1,6 +1,7 @@
+import CopyRight from "../Atoms/CopyRight";
 import MapContact from "../Atoms/MapContact";
-import CollapsibleContact from "../Molecules/CollapsibleContact";
 import Resumen from "../Molecules/ResumenCard";
+import CollapsibleContactGrid from "../Organisms/CollapsibleContacGrid";
 import ContactInfo from "../Organisms/ContactInfo";
 
 
@@ -18,7 +19,8 @@ const Contact = () => (
         title='FAQs'
         description='This section comes with Accordion tabs for different questions and answers about Simple House HTML CSS template. Thank you. #666'
     />
-    <CollapsibleContact />
+    <CollapsibleContactGrid />
+    <CopyRight classnme="copyright" text="Copyright © 2020 Simple House | Design: TemplateMo"/>
     </div>
 )
 
